@@ -27,7 +27,36 @@ flutter:
   uses-material-design: true
 
 ```
+import :
+```
+import 'package:auto_scroll_image/auto_scroll_image.dart';
+```
 
+then add AutoScrollImage to your class:
+```
+home: Scaffold(
+        appBar: AppBar(
+          title: Text('Your App'),
+        ),
+        body: const Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            // Your other widgets can go here
+
+            // Example usage of AutoScrollImage
+            AutoScrollImage(
+              itemCount: 10, // Customize itemCount
+              itemWidth: 50.0, // Customize itemWidth
+              autoScrollDuration: Duration(seconds: 2), // Customize autoScrollDuration
+              timerInterval: Duration(seconds: 2), // Customize timerInterval
+            ),
+
+            // More of your widgets can follow here
+          ],
+        ),
+      ),
+```
 <img width="342" alt="image" src="https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/738441ad-f38c-4cbc-ad40-bf073ed056a4">
 
 
