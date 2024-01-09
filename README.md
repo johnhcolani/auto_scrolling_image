@@ -4,7 +4,10 @@ make an assets folder in root of the project:
 |<img width="241" alt="image" src="https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/5ff98268-2aa2-4b44-8327-948532177673">|
 
 
-
+Add two items to pubspec.yaml
+- add auto_scroll_image to the dependencies
+- open assets path
+  
 ```
 dependencies:
   flutter:
