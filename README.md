@@ -8,7 +8,7 @@
 - add auto_scroll_image to the dependencies
 - open assets path
 
-```
+```dart
 dependencies:
   flutter:
     sdk: flutter
@@ -33,7 +33,7 @@ import 'package:auto_scroll_image/auto_scroll_image.dart';
 ```
 
 then add AutoScrollImage to your class:
-```
+```dart
 home: Scaffold(
         appBar: AppBar(
           title: Text('Your App'),
