@@ -1,4 +1,7 @@
 # auto_scrolling_image
+## A view of the Package
+![gif_file](https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/76a05a4d-5677-4625-8180-ca74749744ac)
+
 ### make an assets folder in root of the project:
 
 <img width="241" alt="image" src="https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/5ff98268-2aa2-4b44-8327-948532177673">
