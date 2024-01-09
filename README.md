@@ -57,7 +57,8 @@ home: Scaffold(
         ),
       ),
 ```
-final result would be on Android:/n
+```final result would be on Android:
+```
 |<img width="241" alt="image" src="https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/ba9e2a51-7554-4cca-8d1d-62ac0d7268b2">|
 
 
