@@ -57,20 +57,20 @@ home: Scaffold(
         ),
       ),
 ```
-#final result would be on Android:
+# final result would be on Android:
 
 <img width="241" alt="image" src="https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/ba9e2a51-7554-4cca-8d1d-62ac0d7268b2">
 
 
-#iOS:
+# iOS:
 
 <img width="241" alt="image" src="https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/0a4b1660-44b0-4416-9945-b1cca952b915">
 
-#macOS:
+# macOS:
 
 <img width="806" alt="image" src="https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/bd2f408d-91c1-4611-a0dc-000e508d3db7">
 
-
+# web:
 
 
 
