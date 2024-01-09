@@ -7,7 +7,7 @@
 ### Add two items to pubspec.yaml
 - add auto_scroll_image to the dependencies
 - open assets path
-  
+
 ```
 dependencies:
   flutter:
@@ -58,14 +58,6 @@ home: Scaffold(
       ),
 ```
 ### final result would be on Android:
-
-<img width="241" alt="image" src="https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/f8640eee-b3db-457b-843a-091da281f96a">
-
-
-
-
-
-
 ### Android
 <img width="241" alt="image" src="https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/ba9e2a51-7554-4cca-8d1d-62ac0d7268b2">
 
@@ -78,3 +70,38 @@ home: Scaffold(
 
 ### Web:
 <img width="1196" alt="image" src="https://github.com/johnhcolani/auto_scrolling_image/assets/91166301/62b9e6d2-c5ef-4266-85ed-484f6156cc52">
+## Usage
+You can take a look at example bellow and customise it with your needs;
+
+
+```dart
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+              appBar: AppBar(
+                title: const Text('Auto Scroll Image'),
+              ),
+              body: AutoScrollImage(
+                itemCount: 10, // Customize itemCount
+                itemWidth: 50.0, // Customize itemWidth
+                autoScrollDuration: Duration(seconds: 2), // Customize autoScrollDuration
+                timerInterval: Duration(seconds: 2), // Customize timerInterval
+    ),
+    );
+  }
+}
+
+
+
+```
+
+## Additional information
+This package facilitates seamless image scrolling on your screen, 
+making it ideal for showcasing advertisements or demonstrating your
+app's capabilities. Enhance user engagement by effortlessly presenting
+a dynamic list of images with this easy-to-use solution,
+
